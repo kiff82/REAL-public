@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "real-contact-system"
+version = "0.1.0"
+description = "Experimental contact system for a frozen language-model manifold"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "kiff82" }]
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = ["torch>=2.2"]
+
+[project.optional-dependencies]
+demo = ["numpy>=1.26"]
+research = [
+  "accelerate>=0.30",
+  "datasets>=2.19",
+  "scikit-learn>=1.5,<2.0",
+  "transformers>=4.51.0",
+]
+gpu = ["bitsandbytes>=0.43"]
+dev = ["numpy>=1.26", "pytest>=8", "ruff>=0.6"]
+
+[project.urls]
+Repository = "https://github.com/kiff82/REAL-public"
+Issues = "https://github.com/kiff82/REAL-public/issues"
+
+[tool.setuptools]
+py-modules = ["train_real_v1_3"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["real*", "scripts*", "utils*"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"

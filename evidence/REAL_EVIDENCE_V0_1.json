@@ -1,0 +1,86 @@
+{
+  "schema_version": "real.public-evidence.v1",
+  "release_version": "0.1.0",
+  "evidence_boundary": {
+    "aggregate_only": true,
+    "benchmark_source_rows_included": false,
+    "checkpoints_included": false,
+    "model_shards_included": false
+  },
+  "results": [
+    {
+      "id": "cue_aligned_hotpot_lineage_20260402",
+      "status": "measurement_only",
+      "task": "hotpotqa_reasoning",
+      "sample_count": 256,
+      "refine_policy": "forward",
+      "output_contract": "cue_aligned_keyfacts",
+      "checkpoints": {
+        "72000": {
+          "answer_em": 0.2265625,
+          "answer_f1": 0.3564804606321783,
+          "full_contract_rate": 0.5390625
+        },
+        "73000": {
+          "answer_em": 0.2890625,
+          "answer_f1": 0.42585687613634177,
+          "full_contract_rate": 0.6484375
+        },
+        "73600": {
+          "answer_em": 0.2109375,
+          "answer_f1": 0.34303276886927286,
+          "full_contract_rate": 0.515625
+        }
+      },
+      "decision": "73000_is_local_lineage_apex_keep_73600_as_contrast",
+      "interpretation": "The visible gap is contract-completion and answer-extraction stability on a forced scaffold.",
+      "non_claims": [
+        "not a matched base-static-REAL comparison",
+        "not proof of general reasoning",
+        "not proof of support-fact grounding",
+        "no controller or runtime-policy promotion"
+      ]
+    },
+    {
+      "id": "insufficiency_contact_objective_responsiveness_v0_1_20260426",
+      "status": "not_promoted_local_only",
+      "evidence_level": "manifold_contact_observed",
+      "selected_manifest_used_for_training": false,
+      "objective_weight": 0.02,
+      "full_selected_manifest": {
+        "source_row_count": 48,
+        "checkpoint_row_count": 192,
+        "per_step_row_count": 960,
+        "false_certainty_never_found_insufficiency_contact": {
+          "matched_control": 11,
+          "objective_final": 11,
+          "objective_early_final": 11
+        },
+        "false_certainty_final_contact": {
+          "matched_control": 0,
+          "objective_final": 1,
+          "objective_early_final": 1
+        },
+        "true_abstain_final_contact": {
+          "matched_control": 9,
+          "objective_final": 9,
+          "objective_early_final": 9
+        },
+        "answer_contact_control_rate": {
+          "matched_control": 1.0,
+          "objective_final": 0.952,
+          "objective_early_final": 1.0
+        }
+      },
+      "decision": "not_promoted",
+      "interpretation": "The objective moved margins locally but did not improve the held-out target failure mode over matched control.",
+      "non_claims": [
+        "no frozen-manifold modification",
+        "no reliable-abstention claim",
+        "no detector promotion",
+        "no controller promotion",
+        "no decode-policy promotion"
+      ]
+    }
+  ]
+}

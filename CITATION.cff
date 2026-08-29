@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this research seed, cite the repository and exact release."
+title: "REAL: Recursive External Alignment Layer"
+type: software
+version: 0.1.0
+date-released: 2026-08-29
+authors:
+  - name: "kiff82"
+repository-code: "https://github.com/kiff82/REAL-public"
+license: Apache-2.0
+abstract: >-
+  A bounded research seed for testing whether a small input-conditioned
+  contact-making head can improve state access and stability in a frozen
+  language-model manifold relative to base and fixed-signal comparisons.
+keywords:
+  - language models
+  - latent-state contact
+  - frozen backbone
+  - dynamic prefix
+  - alignment research

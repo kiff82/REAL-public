@@ -1,0 +1,254 @@
+{
+  "file_count": 49,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "5da1bc8ed916bb25bbdd47ab1cd8757c1214577e526e3bbe69052e834e8a37b2",
+      "size_bytes": 183
+    },
+    {
+      "path": ".github/workflows/release-audit.yml",
+      "sha256": "1407a7cbd070e56ce2d00f1b930604fde677c15b3b5d959cdc0b7b90dc5a33a3",
+      "size_bytes": 573
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "5ec450975f732488ea6833cf9e2c9ecb4037b66ac078f8951d13410c3877e38e",
+      "size_bytes": 640
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "2514c76377e1eeaea616a5be2e2355d3270efc5a84fccfd7a5feb17cf5198a78",
+      "size_bytes": 1784
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "da9107e0f299277bad1542a71a4dcd44422e54a04bfc48ae929c125b4f7ab2ff",
+      "size_bytes": 659
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "b6741a4036869962677c5ccce2219cac3d0f2987b33e740adb3c3e63a147418f",
+      "size_bytes": 1640
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "size_bytes": 11358
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "ef10978f08b1bab27b8d997d36a048fd8590d0f8a0c58cac837d67a78097ad2c",
+      "size_bytes": 406
+    },
+    {
+      "path": "README.md",
+      "sha256": "25a7af53e480fab87c45cc5cc46e4ba14f0a24149e13c5dfa8fdcb1b8dadb6b2",
+      "size_bytes": 5924
+    },
+    {
+      "path": "REAL_CONCEPT.md",
+      "sha256": "6675019ecef03fad19977f0ce92d24bf2c9de1d23fd252c90d35e87189aaf594",
+      "size_bytes": 5227
+    },
+    {
+      "path": "RELEASE_STATUS.md",
+      "sha256": "ffadaa012388d1825500a70089839afa69ba1d7ff0e77068752c5659b2c3666a",
+      "size_bytes": 3086
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "5e433ad4840bdd9367c020262e0e0dde57a2e4aef6a58f64a0d7a76f7ebce00e",
+      "size_bytes": 1489
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "sha256": "aecfb7ea91e97c78fa21407d11851a39253c78d7535d46687727b9429b1c7e51",
+      "size_bytes": 2103
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "f52c361007ee73559909f805fc5959caf8b52cc5b1f3e9b5d4b5446719371f54",
+      "size_bytes": 2696
+    },
+    {
+      "path": "docs/EVIDENCE.md",
+      "sha256": "44ea279b134b79176c8b963d3a7feed024185b72af502efd37d1ea20f11455f6",
+      "size_bytes": 1979
+    },
+    {
+      "path": "docs/PROVENANCE.md",
+      "sha256": "82decc84063da2393643d2ac1b0781d42e257e4c9f021d3a9926dc2a565e3847",
+      "size_bytes": 1510
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "sha256": "8ec92c2cd2e6a92f15a335990280d022b8aae6b531d278be66771e4e0f3dfe72",
+      "size_bytes": 1881
+    },
+    {
+      "path": "docs/RESEARCH_CONTRACT.md",
+      "sha256": "843e7f10154d6961029d0c5b9adb64a0190e44c1d40fd8cd4ce92bb7449d1c8e",
+      "size_bytes": 4967
+    },
+    {
+      "path": "evidence/REAL_EVIDENCE_V0_1.json",
+      "sha256": "41d43f8f1e649d59642abca3ee9d3d042d08999ef2ba6fe4b0b5a9c52e45dc54",
+      "size_bytes": 2864
+    },
+    {
+      "path": "examples/__init__.py",
+      "sha256": "4b8496b54ca182e53bf84fe2c23cb0cb065178a4e9cbabd918c1e3ae2a9c9bae",
+      "size_bytes": 64
+    },
+    {
+      "path": "examples/structural_contact_demo.py",
+      "sha256": "46c0eb8753d6e4dfb74590d7f45efb7f21416ae2f4cde0401ac423b3880796a5",
+      "size_bytes": 6808
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "e1dc03a5f7865fb256cc4621fdb361426920074870092e1b17ca1ba9e83382c2",
+      "size_bytes": 1295
+    },
+    {
+      "path": "real/__init__.py",
+      "sha256": "7cdc8dee14c8ea85f43463445194982fe66c7528976d6e45b49b04d7cbdd05f0",
+      "size_bytes": 232
+    },
+    {
+      "path": "real/core/__init__.py",
+      "sha256": "baee04b05863b3fb75f5a223ab99546454bf75491f3b585db9bbec78de946f88",
+      "size_bytes": 34
+    },
+    {
+      "path": "real/core/contact_loss.py",
+      "sha256": "0cdc7b40105f86674ef22f1f341158d5289cdf5e6c8cf59e065098e325b17f5b",
+      "size_bytes": 3171
+    },
+    {
+      "path": "real/core/dtype_ops.py",
+      "sha256": "38134bea376d420a343795d717cd64a924e4439e995698a1c51ff4600243fe7e",
+      "size_bytes": 1479
+    },
+    {
+      "path": "real/core/loss_ops.py",
+      "sha256": "50297e1cd50a09bd81eba3c7902e602546101eefa20e06f6b8747c1c2120ac77",
+      "size_bytes": 1653
+    },
+    {
+      "path": "real/core/path_ops.py",
+      "sha256": "8897227c141fe153676cb3a0645003ccaa38fef1b6bc01c278da3664210d1cb1",
+      "size_bytes": 2185
+    },
+    {
+      "path": "real/core/prefix_ops.py",
+      "sha256": "9d3277b8401cc2815a2da72999f5dc3daa15a6a1a4c8d7d835b83057635f4611",
+      "size_bytes": 1776
+    },
+    {
+      "path": "real/core/protocol.py",
+      "sha256": "ea4e15a82e6119b01b582978ece1782c4c04ed4a86ac33cccab4190f50edbabe",
+      "size_bytes": 3183
+    },
+    {
+      "path": "requirements-demo.txt",
+      "sha256": "4ddc9fac6812009f664a46c80b8fd573c9f2bcc4ac391cca9531ca94cd432e63",
+      "size_bytes": 12
+    },
+    {
+      "path": "requirements-gpu.txt",
+      "sha256": "e95c48d33a3d1cfca01a897b00fe76578094a999d7ff1ea7b80a3a6efa116233",
+      "size_bytes": 39
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "063abd4d50cbab66c466a066509f19cb1d132d6f6185e7323bd566c5908d4cd8",
+      "size_bytes": 87
+    },
+    {
+      "path": "scripts/__init__.py",
+      "sha256": "58ed85eb5d27f230a0cfacb5c1785075eeb74d2d67c4ccf3f650f95ef18d457c",
+      "size_bytes": 67
+    },
+    {
+      "path": "scripts/_runtime_bootstrap.py",
+      "sha256": "4be91fad70c7b3e8d6ad3588cb8174a0c362781a5005e75bc7dd66fa4c941b6f",
+      "size_bytes": 560
+    },
+    {
+      "path": "scripts/build_release_manifest.py",
+      "sha256": "3ac8cb690fe916a1e38238f5a0a15f789234a8ed55dd22eccccf0dec70d9f744",
+      "size_bytes": 2330
+    },
+    {
+      "path": "scripts/infer_real.py",
+      "sha256": "9e9a3636a87ef71b02f008c9ca8da01609da8e3586933d72ac2723d03e2fd8fe",
+      "size_bytes": 27848
+    },
+    {
+      "path": "scripts/reasoning_eval.py",
+      "sha256": "81e446063eb8ea42c2a65629981acd4dfa3fc26ac840700e62abbf57394948a5",
+      "size_bytes": 137909
+    },
+    {
+      "path": "scripts/release_audit.py",
+      "sha256": "a61646666e938c477886c9fe532b3a688cc2da5c6a0fb83d7db21fd4898a9df9",
+      "size_bytes": 5385
+    },
+    {
+      "path": "tests/test_structural_contact_demo.py",
+      "sha256": "78ac2e0d48d93984c5bb4b2e2f180e8dd8f5731c5ce9c9595e9128daac2d3b0d",
+      "size_bytes": 1157
+    },
+    {
+      "path": "train_real_v1_3.py",
+      "sha256": "853a0fb837c0070fa644fe390973d6785d270055659d052c13a3e2d0a96584f3",
+      "size_bytes": 228411
+    },
+    {
+      "path": "utils/__init__.py",
+      "sha256": "6fb882959da13646740ccc6d3e236676515e0f980908d643b282ebaef31a39e1",
+      "size_bytes": 64
+    },
+    {
+      "path": "utils/context_pull_probe.py",
+      "sha256": "47b2888ac66ca795fe3a09ebcb5380b6f0c2063899da49394d5c2bee540257a0",
+      "size_bytes": 7061
+    },
+    {
+      "path": "utils/generation_trace.py",
+      "sha256": "9eecc7b713ef7b3b2e55bf521d95faa8dc1aab4dbc7fbbc99c06982f9d46c243",
+      "size_bytes": 9081
+    },
+    {
+      "path": "utils/hotpot_reasoning_contracts.py",
+      "sha256": "24fef9d32a266184f6527feb992b50e4b56f97649304f0c60a31ac5d670b12e2",
+      "size_bytes": 40481
+    },
+    {
+      "path": "utils/insufficiency_contact_path_selection.py",
+      "sha256": "35a77959c0344762848ee24461c502977fd6d8a2864a54429dfbce006c5822d6",
+      "size_bytes": 7959
+    },
+    {
+      "path": "utils/pressure_probe.py",
+      "sha256": "e74ea8990dba494b5d8bcbd68326c046bbaf357279ea57982b49599b52a7d605",
+      "size_bytes": 7343
+    },
+    {
+      "path": "utils/real_trace_probe.py",
+      "sha256": "f10010c46856299663144baeb45334ca53f3727ed4cc18138b22cd0ef08724ed",
+      "size_bytes": 11595
+    },
+    {
+      "path": "utils/replay_probe.py",
+      "sha256": "6fc5529014a2f4e3a8b2a98ed00171152fa9fad78421da5956de9c666c1737c5",
+      "size_bytes": 12124
+    }
+  ],
+  "release_date": "2026-08-29",
+  "release_version": "0.1.0",
+  "schema_version": "real.public-release-manifest.v1",
+  "source_commit": "1847a309a0c20b5b88b3186516ff9ea4efa714a5"
+}

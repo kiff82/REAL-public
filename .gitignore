@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Environments and local configuration
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Model and training artifacts: never publish by accident
+outputs/
+results/
+data/
+checkpoints/
+wandb/
+logs/
+*.log
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Hugging Face and notebook caches
+.cache/
+**/.cache/
+**/hf_cache/
+**/datasets_cache/
+**/transformers_cache/
+.ipynb_checkpoints/
+
+# Secrets and key material
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+
+# Build products
+build/
+dist/
+*.egg-info/
